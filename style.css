@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Fraunces";
+    font-size: 18px;
+}
+
+ul button{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 150px;
+    border-radius: 16px;
+    height: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ul button:hover{
+    color: white;
+    background-color: hsl(197, 79%, 59%);
+}
+
+
+header{
+    font-family: "Barlow";
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header ul{
+    margin-top: 20px;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#hamburger{
+    position: absolute;
+    top: 40px;
+    right: 5vh;
+    cursor: pointer;
+    display: none;
+}
+
+#menu{
+    box-sizing: border-box;
+    padding: 30px;
+    font-family: "barrow";
+    color: hsl(212, 27%, 19%);
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    top: 80px;
+    right:  10vw;
+    width: 80vw;
+}
+
+#menu li{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#menu button{
+    cursor: pointer;
+    background-color: hsl(51, 100%, 49%);
+    color: black;
+}
+
+#header{
+    background-image: url(/images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+
+}
+
+#header h1{
+    margin-top: 50px;
+    color: white;
+    font-size: 52px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.flex{
+    display: flex;
+    box-sizing: border-box;
+    min-height: 50vw;
+}
+
+.flex-2{
+    display: flex;
+    box-sizing: border-box;
+    min-height: 50vw;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.yellow{
+    text-decoration: underline 6px hsl(51, 100%, 49%);
+    cursor: pointer;
+}
+
+
+.red{
+    text-decoration: underline 6px hsl(7, 99%, 70%);
+    cursor: pointer;
+}
+
+#img-1{
+    background-image: url("/images/desktop/image-transform.jpg");    
+    background-position: center;
+    background-size: cover;
+    min-width: 50%;
+    min-height: 50vw;
+    background-repeat: no-repeat;
+}
+
+#img-2{
+    background-image: url("/images/desktop/image-stand-out.jpg");    
+    background-position: center;
+    background-size: cover;
+    min-width: 50%;
+    min-height: 50vw;
+    background-repeat: no-repeat;
+}
+
+#img-3{
+    background-image: url("/images/desktop/image-graphic-design.jpg");    
+    background-position: center;
+    background-size: cover;
+    min-width: 50%;
+    min-height: 50vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 40px;
+    box-sizing: border-box;
+    color: hsl(167, 40%, 24%);
+}
+
+#img-3 p{
+    width: 350px;
+}
+
+#img-4{
+    background-image: url("/images/desktop/image-photography.jpg");    
+    background-position: center;
+    background-size: cover;
+    min-width: 50%;
+    min-height: 50vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 40px;
+    box-sizing: border-box;
+    color: hsl(198, 62%, 26%);
+}
+
+#img-4 p{
+    width: 350px;
+}
+
+#clients{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Barlow";
+    padding: 50px;
+}
+
+.client{
+    text-align: center;
+    padding: 20px;
+}
+
+.client img{
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.client p{
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+h5{
+    color: hsl(210, 4%, 67%);
+}
+
+#section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer{
+    font-family: "Barlow";
+    background-color: hsl(168, 34%, 41%);
+    text-align: center;
+    padding: 40px;
+    color: hsl(212, 27%, 19%);
+}
+
+footer li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#list{
+    margin: 20px auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#icons:hover{
+    color: white;
+}
+
+#icons{
+    margin: 0  auto;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#images{
+    display: flex;
+    
+}
+
+#img-5{
+    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    min-width: 25vw;
+}
+
+#img-6{
+    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    min-width: 25vw;
+}
+
+#img-7{
+    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    min-width: 25vw;
+}
+
+#img-8{
+    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    min-width: 24vw;
+}
+
+
+.none{
+    display: none;
+}
+
+@media (max-width: 968px) {
+    .flex{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .flex-2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #img-1, #img-2, #img-3, #img-4{
+        min-height: 100vw;
+    }
+
+    #clients{
+        flex-direction: column;
+    }
+    
+
+    #images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hidden{
+        display: none;
+    }
+
+
+    #hamburger{
+        display: inline;
+    }
+}
